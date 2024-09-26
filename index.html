@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body onload="return loading()">
+    <div class="background">
+        <div class="form-container">
+            
+            <form name="myForm" class="form"  onsubmit="return validateForm(event)">
+                <h1> Login</h1>
+<input class="username" type="text" name="username" id="#username" placeholder="username">
+<input type="password" name="password" id="" placeholder="password">
+<input class="btn" type="submit" value="Login">
+<p style="margin-top: 20px;align-self: center;">Not a member <a href="">Sign Up</a></p>
+
+
+            </form>
+            <h1 class="login"></h1>
+            <a href="" id="logoutbtn" onclick="logOut()">Log out</a>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
